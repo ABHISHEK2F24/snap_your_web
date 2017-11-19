@@ -1,6 +1,6 @@
 <img src="snap/gui/favicon.png" align="right" />
-# snap_your_web [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/abhishek2f24)
- > project to create a desktop app in linux over LXD using snapcraft
+# snap_your_web 
+  > project to create a desktop app in linux over LXD using snapcraft
  
  ## Requirements
  - [Snapcraft](https://snapcraft.io/) Snaps are quick to install, easy to create, safe to run, and they update automatically and transactionally so your app is always fresh and never broken.
@@ -19,8 +19,10 @@
 ## How to Use
  After install all above required packages hit command this will create your .snap package
     ``` snapcraft cleanbuild ```
+    
  And to install package on your system just enter following command
     ``` snap install --dangerous AppName_0.1_amd64.snap ```
+ 
  After successful installation you can run your software by name of your app   
      
  
